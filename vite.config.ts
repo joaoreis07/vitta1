@@ -17,8 +17,8 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  // GitHub Pages serve em /nutri01/; Netlify e dev local servem na raiz
-  base: process.env.GITHUB_ACTIONS ? '/nutri01/' : '/',
+  // GitHub Pages serve em /vitta1/; Netlify e dev local servem na raiz
+  base: process.env.GITHUB_ACTIONS ? '/vitta1/' : '/',
   server: {
     host: true,
     port: 5200,
